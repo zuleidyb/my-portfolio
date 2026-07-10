@@ -1,5 +1,11 @@
 const projectList = [
   {
+    id: 6,
+    title: 'TeamFlow',
+    description: 'A real-time collaborative kanban board with live drag-and-drop sync, presence indicators, and an activity feed, built with React, Node.js, Socket.io, and PostgreSQL.',
+    link: 'https://github.com/zuleidyb/teamflow-',
+  },
+  {
     id: 1,
     title: 'Dev Team Dashboard',
     description: 'A project management dashboard with filtering, sorting, and data visualization using Recharts.',
