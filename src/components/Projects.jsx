@@ -40,20 +40,20 @@ const projectList = [
 function Projects() {
   return (
     <section id="projects" className="py-20 px-6 max-w-4xl mx-auto">
-      <h2 className="text-3xl font-bold text-center text-gray-900 mb-10">Projects</h2>
+      <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-10">Projects</h2>
       <div className="grid gap-6 sm:grid-cols-2">
         {projectList.map((project) => (
           <div
             key={project.id}
-            className="border border-gray-200 rounded-xl p-6 text-left shadow-sm hover:shadow-md transition"
+            className="border border-gray-200 dark:border-slate-700 dark:bg-slate-800 rounded-xl p-6 text-left shadow-sm hover:shadow-md transition"
           >
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">{project.title}</h3>
-            <p className="text-gray-600 mb-4">{project.description}</p>
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">{project.title}</h3>
+            <p className="text-gray-600 dark:text-slate-300 mb-4">{project.description}</p>
             <a
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 font-medium hover:underline"
+              className="text-blue-500 dark:text-violet-400 font-medium hover:underline"
             >
               View on Git →
             </a>
