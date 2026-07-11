@@ -6,6 +6,12 @@ const projectList = [
     link: 'https://github.com/zuleidyb/teamflow-',
   },
   {
+    id: 7,
+    title: 'InvenTrack',
+    description: 'A layered TypeScript backend API with transactional order processing that prevents overselling under concurrent load, verified with an automated concurrency stress test, built with Node.js, Express, Prisma, and PostgreSQL.',
+    link: 'https://github.com/zuleidyb/inventrack',
+  },
+  {
     id: 1,
     title: 'Dev Team Dashboard',
     description: 'A project management dashboard with filtering, sorting, and data visualization using Recharts.',
