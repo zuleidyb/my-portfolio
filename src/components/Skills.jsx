@@ -9,12 +9,15 @@ const skillGroups = [
       'MagentrixCLI',
       'Salesforce CLI',
       'GitHub',
-      'AI-Assisted Development (Claude Code)',
+      'AI-Assisted Development (Claude Code — Node.js, React, Python)',
     ],
   },
   {
     category: 'Backend',
     skills: [
+      'Node.js',
+      'TypeScript',
+      'Python (FastAPI)',	
       'C# / .NET Framework 4.8',
       'ASP.NET MVC',
       'Apex',

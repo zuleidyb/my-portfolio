@@ -11,6 +11,12 @@ const projectList = [
     description: 'A layered TypeScript backend API with transactional order processing that prevents overselling under concurrent load, verified with an automated concurrency stress test, built with Node.js, Express, Prisma, and PostgreSQL.',
     link: 'https://github.com/zuleidyb/inventrack',
   },
+ {
+    id: 8,
+    title: 'SyncHub',
+    description: 'A Python (FastAPI) + React integration monitoring platform simulating ETL between two systems with mismatched schemas, featuring per-record failure tracking, retry logic, and data reconciliation.',
+    link: 'https://github.com/zuleidyb/synchub',
+  },
   {
     id: 1,
     title: 'Dev Team Dashboard',
@@ -26,7 +32,7 @@ const projectList = [
   {
     id: 3,
     title: 'Kanban Board',
-    description: 'A drag-and-drop task board with full CRUD and localStorage persistence.',
+    description: 'A drag-and-drop task board with full CRUD and local Storage persistence.',
     link: 'https://github.com/zuleidyb/kanban-board',
   },
   {
