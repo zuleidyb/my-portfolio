@@ -11,6 +11,12 @@ const projectList = [
     description: 'A layered TypeScript backend API with transactional order processing that prevents overselling under concurrent load, verified with an automated concurrency stress test, built with Node.js, Express, Prisma, and PostgreSQL.',
     link: 'https://github.com/zuleidyb/inventrack',
   },
+  {
+    id: 9,
+    title: 'FleetSales',
+    description: 'A sales performance dashboard with live filtering across customer, product, and date range, built with C#/.NET Core Web API, Entity Framework Core, PostgreSQL, and Vue 3.',
+    link: 'https://github.com/zuleidyb/fleetsales',
+  },
  {
     id: 8,
     title: 'SyncHub',
