@@ -17,6 +17,12 @@ const projectList = [
     description: 'A sales performance dashboard with live filtering across customer, product, and date range, built with C#/.NET Core Web API, Entity Framework Core, PostgreSQL, and Vue 3.',
     link: 'https://github.com/zuleidyb/fleetsales',
   },
+{
+    id: 10,
+    title: 'VoyagePlanner',
+    description: 'A fleet route optimization tool using a nearest-neighbor + 2-opt algorithm on real port coordinates, with an interactive Leaflet map, built with ASP.NET Core, Entity Framework Core, PostgreSQL, and Vue 3.',
+    link: 'https://github.com/zuleidyb/voyageplanner',
+  },
  {
     id: 8,
     title: 'SyncHub',
