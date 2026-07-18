@@ -23,6 +23,12 @@ const projectList = [
     description: 'A fleet route optimization tool using a nearest-neighbor + 2-opt algorithm on real port coordinates, with an interactive Leaflet map, built with ASP.NET Core, Entity Framework Core, PostgreSQL, and Vue 3.',
     link: 'https://github.com/zuleidyb/voyageplanner',
   },
+  {
+    id: 11,
+    title: 'TrackMyApps',
+    description: 'A personal job application tracker with a kanban pipeline, drag-and-drop stage changes, and an automated follow-up engine that flags applications that have gone quiet too long - built with ASP.NET Core, Entity Framework Core, PostgreSQL, and Vue 3.',
+    link: 'https://github.com/zuleidyb/track-my-apps',
+  },
  {
     id: 8,
     title: 'SyncHub',
