@@ -1,5 +1,17 @@
 const projectList = [
   {
+    id: 11,
+    title: 'SFDC Bridge',
+    description: 'Bidirectional Salesforce ↔ PostgreSQL sync engine — write-through outbound, CDC (Pub/Sub API) inbound, Bulk API 2.0 for volume. .NET 8 + Vue 3.',
+    link: 'https://github.com/zuleidyb/SFDC-bridge',
+  },
+  {
+    id: 12,
+    title: 'Apex Integration Layer',
+    description: 'An Apex-native integration layer for order data: an Apex REST endpoint lets an external order-management system push orders into Salesforce, and a scheduled Batch Apex job pushes status changes back out to that same external system via a Named Credential.',
+    link: 'https://github.com/zuleidyb/apex-integration-layer',
+  },
+  {
     id: 6,
     title: 'TeamFlow',
     description: 'A real-time collaborative kanban board with live drag-and-drop sync, presence indicators, and an activity feed, built with React, Node.js, Socket.io, and PostgreSQL.',
