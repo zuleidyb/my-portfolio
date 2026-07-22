@@ -11,6 +11,12 @@ const projectList = [
     description: 'An Apex-native integration layer for order data: an Apex REST endpoint lets an external order-management system push orders into Salesforce, and a scheduled Batch Apex job pushes status changes back out to that same external system via a Named Credential.',
     link: 'https://github.com/zuleidyb/apex-integration-layer',
   },
+   {
+    id: 13,
+    title: 'Contract Analyzer (LLMs)',
+    description: 'AI-powered contract review tool that extracts clauses and flags risk from PDF contracts using LLMs.',
+    link: 'https://github.com/zuleidyb/contract-analyzer',
+  },
   {
     id: 6,
     title: 'TeamFlow',
