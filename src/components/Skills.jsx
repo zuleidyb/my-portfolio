@@ -10,6 +10,7 @@ const skillGroups = [
       'Salesforce CLI',
       'GitHub',
       'AI-Assisted Development (Claude Code — Node.js, React, Python)',
+      'LLMs (OpenAI, Anthropic/Claude APIs)',
     ],
   },
   {
