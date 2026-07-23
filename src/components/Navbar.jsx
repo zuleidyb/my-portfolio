@@ -16,7 +16,7 @@ function Navbar() {
           href="#hero"
           className="bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-xl font-bold text-transparent dark:from-indigo-400 dark:via-violet-400 dark:to-fuchsia-400"
         >
-          Zuleidy Briceño
+          Zuleidy Briceno
         </a>
         <div className="flex items-center gap-4 sm:gap-6">
           <ul className="flex gap-4 text-xs font-medium text-slate-600 dark:text-slate-300 sm:gap-6 sm:text-sm">

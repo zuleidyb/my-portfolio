@@ -12,11 +12,11 @@ function Hero() {
         <h1 className="mt-8 text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-5xl">
           Hi, I&apos;m{' '}
           <span className="bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent dark:from-indigo-400 dark:via-violet-400 dark:to-fuchsia-400">
-            Zuleidy Briceño
+            Zuleidy Briceno
           </span>
         </h1>
         <p className="mt-3 text-lg font-medium text-indigo-600 dark:text-violet-400">
-          Senior Full-Stack Developer | React, .NET, Vue.js | Salesforce &amp; CRM Integration Specialist
+          Senior Full-Stack Developer | React, .NET, C#, Vue.js | Salesforce &amp; CRM Integration Specialist
         </p>
         <div className="mx-auto mt-6 max-w-2xl space-y-4 text-left text-slate-600 dark:text-slate-300">
           <p>

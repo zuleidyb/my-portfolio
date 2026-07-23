@@ -7,6 +7,18 @@ const stats = [
   { label: 'Code reviews led', value: '1,015' },
 ]
 
+const summary =
+  'Senior Software Developer specializing in Salesforce-centric enterprise integrations, custom CRM portals, and multi-system connectivity (Salesforce, HubSpot, and third-party platforms). Spearheaded end-to-end project lifecycles directly with clients—from technical scoping, SOW definition, and effort estimation through development, deployment, and post-launch support. Combined hands-on engineering (C#, Apex, REST/SOAP, JavaScript) with technical leadership, code reviews, and cross-functional collaboration to deliver secure, scalable, and event-driven data solutions.'
+
+const responsibilities = [
+  'End-to-End Client & Project Ownership: Managed client engagements directly from initial scoping and SOW definition with Project Managers to delivery and ongoing support, translating complex business needs into clear technical architectures.',
+  'Salesforce & Enterprise Integrations: Designed and implemented robust API-based integrations (REST/SOAP, webhooks) and asynchronous messaging workflows between Salesforce, HubSpot, and external enterprise systems to ensure reliable, secure data synchronization.',
+  'Full-Lifecycle Engineering & QA: Developed maintainable backend and portal solutions using Apex, C#, Ajax, and JavaScript. Embedded unit testing, automated API testing (Postman), and OpenAPI/Swagger documentation throughout the SDLC.',
+  'Production Support & Issue Resolution: Partnered closely with Support teams to investigate, troubleshoot, and resolve production integration incidents, maintaining high platform reliability and customer satisfaction.',
+  'Technical Leadership & Mentorship: Conducted code reviews, enforced engineering best practices, and mentored junior developers to elevate code quality, consistency, and team throughput.',
+  'Modern Tooling & AI-Assisted Workflows: Accelerated development, unit testing, and documentation velocity by leveraging AI-assisted workflows (Claude Code) alongside standard CI/CD and Agile practices.',
+]
+
 const highlights = [
   'Delivered 1,294 project tasks with a 92% completion rate, logging 7,056+ development hours across 229 high/urgent priority items.',
   'Sole developer for the Disney Enterprise Portal (2017–2026) — VIP tour systems, Webvan API payments, OneTrust privacy, and mobile UX.',
@@ -40,9 +52,11 @@ function Experience() {
               <p className="font-medium text-indigo-600 dark:text-violet-400">Magentrix Corporation</p>
             </div>
             <p className="text-sm text-slate-500 dark:text-slate-400">
-              November 2015 — June 2026 · Gatineau, Quebec, Canada (Remote)
+              November 2015 — June 2026 · Ontario, Canada (Remote)
             </p>
           </div>
+
+          <p className="mt-4 text-slate-600 dark:text-slate-300">{summary}</p>
 
           <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
             {stats.map((stat) => (
@@ -53,7 +67,22 @@ function Experience() {
             ))}
           </div>
 
-          <ul className="mt-6 space-y-3">
+          <h4 className="mt-8 text-sm font-semibold tracking-wide text-indigo-600 uppercase dark:text-violet-400">
+            Key Responsibilities & Achievements
+          </h4>
+          <ul className="mt-3 space-y-3">
+            {responsibilities.map((item) => (
+              <li key={item} className="flex gap-3 text-slate-600 dark:text-slate-300">
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gradient-to-br from-indigo-500 to-violet-500" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+
+          <h4 className="mt-8 text-sm font-semibold tracking-wide text-indigo-600 uppercase dark:text-violet-400">
+            Highlights
+          </h4>
+          <ul className="mt-3 space-y-3">
             {highlights.map((item) => (
               <li key={item} className="flex gap-3 text-slate-600 dark:text-slate-300">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gradient-to-br from-indigo-500 to-violet-500" />
