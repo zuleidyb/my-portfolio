@@ -1,5 +1,11 @@
 const projectList = [
   {
+    id: 14,
+    title: 'SFDC ERP Syn',
+    description: 'Salesforce CDC → Node.js → PostgreSQL ERP sync, with reverse sync via REST, Apex/Jest/Postman test coverage, a live Vue ops dashboard, and a GitHub Actions CI/CD pipeline.',
+    link: 'https://github.com/zuleidyb/SFDC-ERP-Sync',
+  },
+  {
     id: 11,
     title: 'SFDC Bridge',
     description: 'Bidirectional Salesforce ↔ PostgreSQL sync engine — write-through outbound, CDC (Pub/Sub API) inbound, Bulk API 2.0 for volume. .NET 8 + Vue 3.',
