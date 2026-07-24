@@ -1,7 +1,7 @@
 const projectList = [
   {
     id: 14,
-    title: 'SFDC ERP Syn',
+    title: 'SFDC ERP Sync',
     description: 'Salesforce CDC → Node.js → PostgreSQL ERP sync, with reverse sync via REST, Apex/Jest/Postman test coverage, a live Vue ops dashboard, and a GitHub Actions CI/CD pipeline.',
     link: 'https://github.com/zuleidyb/SFDC-ERP-Sync',
   },
